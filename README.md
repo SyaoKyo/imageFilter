@@ -17,8 +17,7 @@
 <li>最简单的滤波器， 输出像素值是核窗口内像素值的 均值 ( 所有像素加权系数相等)</li>
 <li>核如下:<br></li>
 </ul>
-<div style="text-align:center">
-<img src="./imageFilter-pic/827ef921aef26b9b84542f020a3b55c8b1976fc4.png" alt="K = \dfrac{1}{K_{width} \cdot K_{height}} \begin{bmatrix}
+<img style="text-align:center" src="./imageFilter-pic/827ef921aef26b9b84542f020a3b55c8b1976fc4.png" alt="K = \dfrac{1}{K_{width} \cdot K_{height}} \begin{bmatrix}
 1 &amp; 1 &amp; 1 &amp; ... &amp; 1 \\
 1 &amp; 1 &amp; 1 &amp; ... &amp; 1 \\
 . &amp; . &amp; . &amp; ... &amp; 1 \\
@@ -26,7 +25,6 @@
 1 &amp; 1 &amp; 1 &amp; ... &amp; 1
 \end{bmatrix}"
 />
-</div>
 <hr>
 <h2>高斯滤波器 (Gaussian Filter)</h2>
 <ul>
