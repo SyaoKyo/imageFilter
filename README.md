@@ -40,7 +40,7 @@
 <ul>
 <li>二维高斯函数可以表达为 :<br></li>
 </ul>
-<div style="text-align:center">
+<div align=center>
 <img src="./imageFilter-pic/5b09b2a4f4ddd1d97cbb00a3f32b218afdb84117.png" alt="G_{0}(x, y) = A  e^{ \dfrac{ -(x - \mu_{x})^{2} }{ 2\sigma^{2}_{x} } +  \dfrac{ -(y - \mu_{y})^{2} }{ 2\sigma^{2}_{y} } }"/>
 </div>
 <p>&emsp;&emsp;&nbsp;其中 <img class="math" src="./imageFilter-pic/2d8c833ed800824727cd7bd2fb9de1a12ad7e674.png" alt="\mu"/> 为均值 (峰值对应位置)，<img class="math" src="./imageFilter-pic/fa35d9fc104207e09a712110ac81612c5b279a6c.png" alt="\sigma"/>代表标准差 (变量 <img class="math" src="./imageFilter-pic/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" alt="x"/> 和 变量 <img class="math" src="./imageFilter-pic/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" alt="y"/> 各有一个均值，也各有一个标准差)</p>
