@@ -100,7 +100,7 @@ destroyWindow(GaussianBlurImage);
 <li><em>dst</em>: 输出图像</li>
 <li><em>Size(w, h)</em>: 定义内核的大小(需要考虑的邻域范围)。  <img class="math" src="./imageFilter-pic/9ee4b825a2e36ae093ed7be5e4851ef453b34914.png" alt="w"/> 和 <img class="math" src="./imageFilter-pic/8189a5b5a0917b8c93350827be4038af1839139d.png" alt="h"/> 必须是正奇数，否则将使用 <img class="math" src="./imageFilter-pic/4197cbadaac3abce31a009bf2a2071d782c25582.png" alt="\sigma_{x}"/> 和 <img class="math" src="./imageFilter-pic/b127c87337cd5bebac3425548ce3b87508d62fdf.png" alt="\sigma_{y}"/> 参数来计算内核大小。</li>
 <li><img class="math" src="./imageFilter-pic/4197cbadaac3abce31a009bf2a2071d782c25582.png" alt="\sigma_{x}"/>:  x 方向标准方差，  如果是 <img class="math" src="./imageFilter-pic/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" alt="0"/> 则 <img class="math" src="./imageFilter-pic/4197cbadaac3abce31a009bf2a2071d782c25582.png" alt="\sigma_{x}"/> 使用内核大小计算得到。</li>
-<li><img class="math" src="./imageFilter-pic/b127c87337cd5bebac3425548ce3b87508d62fdf.png" alt="\sigma_{y}"/>:  y 方向标准方差，  如果是 <img class="math" src="../imageFilter-pic/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" alt="0"/> 则 <img src="./imageFilter-pic/b127c87337cd5bebac3425548ce3b87508d62fdf.png" alt="\sigma_{y}"/> 使用内核大小计算得到。</li>
+<li><img class="math" src="./imageFilter-pic/b127c87337cd5bebac3425548ce3b87508d62fdf.png" alt="\sigma_{y}"/>:  y 方向标准方差，  如果是 <img class="math" src="./imageFilter-pic/bc1f9d9bf8a1b606a4188b5ce9a2af1809e27a89.png" alt="0"/> 则 <img src="./imageFilter-pic/b127c87337cd5bebac3425548ce3b87508d62fdf.png" alt="\sigma_{y}"/> 使用内核大小计算得到。</li>
 </ul>
 <p></div>
 3. 中值滤波器: OpenCV函数 medianBlur 执行中值滤波操作。<div></p>
