@@ -6,7 +6,7 @@ using namespace cv;
 // 全局变量
 int DELAY_CAPTION = 1500;
 int DELAY_BLUR = 100;
-
+int MAX_KERNEL_LENGTH = 31;
 Mat src; 
 Mat dst;
 //名称说明
